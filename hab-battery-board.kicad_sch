@@ -5032,10 +5032,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "0ca14379-765d-4d89-9f82-19b0c961f31d")
 		(property "Reference" "#PWR015"
 			(at 48.26 182.88 0)
@@ -5109,10 +5109,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "0ececdba-5b6e-4f78-a318-3bb79b1a7434")
 		(property "Reference" "L3"
 			(at 102.87 161.798 0)
@@ -5298,8 +5298,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 132.08 171.45 0)
+		(lib_id "power:VCC")
+		(at 232.41 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5307,6 +5307,83 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(uuid "1b7b6b5b-dafa-42df-afc7-3274c0f673df")
+		(property "Reference" "#PWR020"
+			(at 232.41 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 232.41 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 232.41 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8e6eba9-c0e7-4413-bb89-a0b05f1ef499")
+		)
+		(instances
+			(project "hab-battery-board"
+				(path "/db2044e4-7c46-4d24-9936-6df4edb75033"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 132.08 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "1d71fbfd-e18c-40da-9860-be4b4ac59f00")
 		(property "Reference" "C12"
 			(at 134.62 170.18 0)
@@ -5672,10 +5749,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3cf780c2-3415-4415-9dce-f4b208c16ff0")
 		(property "Reference" "#PWR014"
@@ -5909,10 +5986,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "4f06ca8c-9011-4ea9-83b3-8e8c846cee8e")
 		(property "Reference" "C11"
 			(at 123.19 170.18 0)
@@ -6068,10 +6145,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "572df455-0d48-4c67-a5b9-17b6bb17d995")
 		(property "Reference" "C9"
 			(at 45.72 168.91 0)
@@ -6307,7 +6384,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6017278a-da57-4965-9e54-870724e25706")
 		(property "Reference" "#PWR09"
 			(at 73.66 39.37 0)
@@ -6321,7 +6397,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 73.66 30.48 0)
+			(at 73.66 31.496 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6539,10 +6615,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "69e22340-a391-45a6-94e2-655857388ec9")
 		(property "Reference" "#PWR016"
 			(at 66.04 182.88 0)
@@ -6690,92 +6766,15 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 232.41 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6f58acba-6f86-479b-9be8-263351f6955e")
-		(property "Reference" "#PWR020"
-			(at 232.41 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 232.41 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 232.41 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3f4099b5-b1b7-4bcb-a977-4c6425d7e5e4")
-		)
-		(instances
-			(project "hab-battery-board"
-				(path "/db2044e4-7c46-4d24-9936-6df4edb75033"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 82.55 165.1 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "7433929e-dd93-4741-b5c5-32428d2633ab")
 		(property "Reference" "C10"
 			(at 80.518 163.83 90)
@@ -6853,10 +6852,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "763c464e-da4a-44db-a3a1-549eed34fb1c")
 		(property "Reference" "U3"
@@ -7136,10 +7135,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "84bee800-4a46-4e4c-8ea0-ec02cbc9d91b")
 		(property "Reference" "#PWR017"
 			(at 120.65 182.88 0)
@@ -7290,10 +7289,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "96f422b0-2cd9-4c11-bbc3-1b2824d96a93")
 		(property "Reference" "#PWR018"
 			(at 132.08 182.88 0)
@@ -7489,7 +7488,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a004faa0-116e-436f-a5e3-15bc1c3cd004")
 		(property "Reference" "#PWR010"
 			(at 48.26 129.54 0)
@@ -7503,7 +7501,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 48.26 120.65 0)
+			(at 48.26 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8928,10 +8926,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "f6dfe39e-89d6-4fc8-b917-d7318f0a8ce7")
 		(property "Reference" "#PWR02"
 			(at 137.16 168.91 0)
